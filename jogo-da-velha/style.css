@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+body {
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: url(/cool-geometric-triangular-figure-in-a-neon-laser-light-great-for-backgrounds-and-wallpapers.jpg);
+    background-size: cover;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.030);
+    backdrop-filter: blur(6px);
+    box-shadow: -20px 20px 50px rgba(0, 0, 0, 0.5);
+    padding: 60px;
+    border-radius: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.185);
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.quadrado {
+    text-align: center;
+    width: 50px;
+    color: #eee;
+    background: #eee;
+    display: inline-block;
+    padding: 40px;
+    font-size: 60px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.jogador, .vencedor {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    background: #eee;
+    cursor: pointer;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
